@@ -26,19 +26,19 @@ Front End: Angular 7.0 + Bootstrap 4.0
 Back End: Node.js + PostgreSQL
 
 Blog feature
-[ ] Creating a blog
-[ ] Viewing a blog
-[ ] Viewing blog lists
-[ ] Commenting a blog
-[ ] Like/unlike a blog
-[ ] Forwarding a blog
-[ ] Editing a blog
-[ ] Deleting a blog
-[ ] Blog tags
-[ ] Blog created time
-[ ] Viewing blog lists by tags
-[ ] Viewing blog lists by dates
-[ ] Blog Background Music
+- [ ] Creating a blog
+- [ ] Viewing a blog
+- [ ] Viewing blog lists
+- [ ] Commenting a blog
+- [ ] Like/unlike a blog
+- [ ] Forwarding a blog
+- [ ] Editing a blog
+- [ ] Deleting a blog
+- [ ] Blog tags
+- [ ] Blog created time
+- [ ] Viewing blog lists by tags
+- [ ] Viewing blog lists by dates
+- [ ] Blog Background Music
 
 
 ## API
