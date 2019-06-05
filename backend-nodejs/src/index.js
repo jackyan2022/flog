@@ -12,12 +12,12 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-app.use((req, res, next) => {
-    req.context = {
-        models,
-        me: models.users[1],
-    };
-    next();
+app.use(async (req, res, next) => {
+  req.context = {
+    models,
+    me: await models.User.findByLogin('rwieruch'),
+  };
+  next();
 });
 app.use('/session', routes.session);
 app.use('/users', routes.user);
